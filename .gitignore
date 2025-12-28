@@ -1,0 +1,62 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# --- Virtual env ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
+
+# --- Data (NO subir datos) ---
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# --- Outputs / artifacts ---
+outputs/
+reports/
+figures/
+*.html
+*.png
+*.jpg
+*.pdf
+
+# --- Secrets / config ---
+.env
+.env.*
+*.key
+*.pem
+
+# --- Model artifacts ---
+models/
+*.pkl
+*.joblib
+
+# --- Plotly / kaleido temp ---
+kaleido*
